@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>Geta.DdsAdmin</id>
-    <version>1.3.36</version>
+    <version>1.3.37</version>
     <title>Geta.DdsAdmin</title>
     <authors>Geta</authors>
     <owners>Geta</owners>
