@@ -9,3 +9,7 @@ Where can I get it?
 1. Install DDSAdmin via NuGet in Visual Studio. Ensure that you also install the required dependencies.
 1. Rebuild your solution.
 1. Start editing your data in EPiServer DDS storages. It will be available in CMS menu: Geta->DDS Admin.
+
+Where can I get more info?
+------------------------------
+Check out [Wiki](https://github.com/Geta/DdsAdmin/wiki)
