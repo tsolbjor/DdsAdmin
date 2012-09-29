@@ -1,4 +1,0 @@
-<Modules>
-  <Module PersistentId="7433719B-7697-4422-BEE1-740B1079217D" ModuleId="Geta.DdsAdmin" />
-  <Module PersistentId="EPiServer.Data, Version=6.2.267.1, Culture=neutral, PublicKeyToken=8fe83dea738b45b7" ModuleId="EPiServer.Data" />
-</Modules>
