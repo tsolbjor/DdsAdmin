@@ -8,7 +8,7 @@
     <owners>Geta</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>CRUD Admin module for EPiServer DDS (Dynamic Data Store)</description>
-    <projectUrl>https://github.com/Geta/opensource/wiki/DDSAdmin-for-EPiServer-CMS</projectUrl>
+    <projectUrl>https://github.com/Geta/DdsAdmin</projectUrl>
     <tags>EPiServer DDS Dynamic Data Store CRUD</tags>
     <copyright>Copyright © 2012 Geta AS</copyright>
     <dependencies>
