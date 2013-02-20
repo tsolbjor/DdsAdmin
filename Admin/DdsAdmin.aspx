@@ -7,25 +7,25 @@
         <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
         <title><%= CurrentStoreName %></title>
         <link type="text/css" rel='stylesheet' href='/content/themes/DDSAdmin/custom/minified.css' />
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"> </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"> </script>
         <script type="text/javascript">
             if (typeof jQuery == 'undefined') {
-                document.write(unescape("%3Cscript src='/Scripts/jquery-1.7.2.min.js' type='text/javascript'%3E%3C/script%3E"));
+                document.write(unescape("%3Cscript src='/Scripts/jquery-1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
             }
         </script>
-        <script src="//ajax.aspnetcdn.com/ajax/jquery.ui/1.8.22/jquery-ui.min.js" type="text/javascript"> </script>
+        <script src="//ajax.aspnetcdn.com/ajax/jquery.ui/1.10.0/jquery-ui.min.js" type="text/javascript"> </script>
         <script type="text/javascript">
             if (typeof jQuery.ui == 'undefined') {
-                document.write(unescape("%3Cscript src='/Scripts/jquery-ui-1.8.22.min.js' type='text/javascript'%3E%3C/script%3E"));
+                document.write(unescape("%3Cscript src='/Scripts/jquery-ui-1.10.0.min.js' type='text/javascript'%3E%3C/script%3E"));
             }
         </script>
-        <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js" type="text/javascript"> </script>
+        <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.min.js" type="text/javascript"> </script>
         <script type="text/javascript">
             if (typeof jQuery.validate == 'undefined') {
                 document.write(unescape("%3Cscript src='/Scripts/jquery.validate.min.js' type='text/javascript'%3E%3C/script%3E"));
             }
         </script>
-        <script src="/Scripts/DataTables-1.9.2/media/js/jquery.dataTables.min.js" type="text/javascript"> </script>
+        <script src="/Scripts/DataTables-1.9.4/media/js/jquery.dataTables.min.js" type="text/javascript"> </script>
         <script src="../Scripts/dataTables.jeditable.min.js" type="text/javascript"> </script>
     </head>
     <body>

@@ -4,9 +4,9 @@
   <UsingTask TaskName="JavaScriptCompressorTask" AssemblyFile="packages\YUICompressor.NET.MSBuild.2.0.0.0\lib\NET20\Yahoo.Yui.Compressor.Build.MsBuild.dll" />
   <Target Name="Minify">
     <ItemGroup>
-      <CssFiles Include="Content\DataTables-1.9.2\media\css\demo_page.css" />
-      <CssFiles Include="Content\DataTables-1.9.2\media\css\demo_table.css" />
-      <CssFiles Include="Content\DataTables-1.9.2\media\css\demo_table_jui.css" />
+      <CssFiles Include="Content\DataTables-1.9.4\media\css\demo_page.css" />
+      <CssFiles Include="Content\DataTables-1.9.4\media\css\demo_table.css" />
+      <CssFiles Include="Content\DataTables-1.9.4\media\css\demo_table_jui.css" />
       <CssFiles Include="Content\themes\DDSAdmin\custom\jquery-ui-1.8.20.custom.css" />
       <CssFiles Include="Content\themes\DDSAdmin\main.css" />
       <JavaScriptFiles Include="Scripts\jquery.dataTables.editable.js" />
