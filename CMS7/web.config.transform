@@ -1,5 +1,5 @@
 <configuration>
-  <location path="Modules/Geta.DdsAdmin">
+  <location path="Modules/Geta.Dds.Admin">
     <system.web>
       <authorization>
         <allow roles="Administrators" />

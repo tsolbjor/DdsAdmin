@@ -9,7 +9,7 @@ namespace Geta.DdsAdmin
     [MenuProvider]
     public class MenuProvider : IMenuProvider
     {
-        public const string RootMenuUri = "/Modules/Geta.DdsAdmin";
+        public const string RootMenuUri = "/Modules/Geta.Dds.Admin";
         private const string GetaTopMenuIsSetKey = "GetaTopMenuIsSet";
         private const string ParentPath = MenuPaths.Global + "/geta";
 
