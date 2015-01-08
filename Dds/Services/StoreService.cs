@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Data.SqlClient;
 using System.Linq;
 using EPiServer.Data;
 using EPiServer.Data.Dynamic;
@@ -81,7 +82,7 @@ namespace Geta.DdsAdmin.Dds.Services
 
         public IEnumerable<StoreMetadata> GetAllMetadata(bool filterEnabled)
         {
-            IEnumerable<StoreMetadata> visibleStores;
+	        IEnumerable<StoreMetadata> visibleStores;
 
             if (filterEnabled)
             {
@@ -93,11 +94,20 @@ namespace Geta.DdsAdmin.Dds.Services
                 visibleStores = GetFilteredMetadata();
             }
 
-            foreach (var info in visibleStores)
+	        var metadata = new List<StoreMetadata>();
+	        foreach (var info in visibleStores)
             {
-                info.Rows = DynamicDataStoreFactory.Instance.GetStore(info.Name).Items().Count();
-                yield return info;
+	            try
+	            {
+		            info.Rows = DynamicDataStoreFactory.Instance.GetStore(info.Name).Items().Count();
+		            metadata.Add(info);
+	            }
+	            catch (SqlException ex)
+	            {
+		            logger.Error(string.Format("Could not load store: {0}", info.Name), ex);
+	            }
             }
+	        return metadata;
         }
 
         public StoreMetadata GetMetadata(string storeName)
